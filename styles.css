@@ -11,7 +11,7 @@ body {
 }
 
 .intro {
-	background-image: url("/Users/tmoney/Desktop/Karma/images/first-background.jpg");
+	background-image: url("first-background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center bottom;
