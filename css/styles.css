@@ -1,0 +1,185 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 655px) {
+  .top-nav {
+      display: none;
+  }
+}
+
+.intro {
+	background-image: url("/Users/tmoney/Desktop/Karma/images/first-background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+	height: 45.938rem;
+	overflow: auto;
+	color: white;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+}
+
+#learnMore, 
+#karma, 
+.social {
+	text-align: center;
+} 
+
+.icons, 
+.caption {
+	margin: 0 20px;
+}
+
+.links li,
+.fa {
+	cursor: pointer;
+}
+
+.links {
+	float: right;
+	padding-right: 40px;
+}
+
+.links li {
+	margin: 0 10px;
+	line-height: 35px;
+	font-size: 16px;
+	letter-spacing: 0.03em;
+	font-weight: 300;
+}
+
+.links li:hover {
+	color: black;
+}
+
+.logo {
+	float: left;
+	margin-left: 68px;
+	margin-top: 15px;
+}
+
+.top-nav {
+	height: 70px;
+	position: fixed;
+	background: white;
+	width: 100%;
+	border-bottom: 1px solid #DDD;
+}
+
+.intro h1 {
+	margin-top: 5.5em;
+	font-size: 3.15em;
+}
+
+.intro h3 {
+	margin-top: -.85em;
+	font-size: 1.55em;
+}
+
+.social h4,
+.cases .content h2,
+.intro h1,
+.intro h3, 
+.nav-top li {
+	font-weight: 300;
+}
+
+button {
+	background-color: #f15a29;
+	border-color: #f15a29;
+	padding: 1rem 1.85rem;
+	border-radius: 4px;
+	margin-top: 0rem;
+	text-shadow: none;
+	border-style: none;
+	font-size: 1.15em;
+}
+
+button:hover {
+	background-color: #D1491D;
+}
+
+.cases {
+	padding: 100px 20px;
+}
+
+.social {
+	padding-bottom: 125px;
+}
+
+.social hr {
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
+}
+
+.social h4,
+.social h3 {
+	font-size: 1em;
+}
+
+.social .site-icons {
+	margin-left: -2.5em;
+	margin-right: 0em;	
+}
+
+.social .site-icons > li {
+	margin-top: -0.5em;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	border: 1px solid #eaebec;
+	padding: 0.625rem 0;
+	margin: 1.25rem 5px;
+}
+
+.social .fa-twitter {
+	color: #55acee;
+}
+
+.social .fa-facebook {
+	color: #4c66a4;
+}
+
+.social .fa-instagram {
+	color: #3f729b;
+}
+
+.social h4 {
+	margin-top: -0.5em;
+}
+
+.cases h2 {
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+}
+
+.social h3,
+.cases .caption > h3 {
+	font-weight: 400;
+}
+
+.cases .caption h3 {
+	font-size: 1.55em;
+	margin: 2.5rem 0px 1.875rem;
+}
+
+#active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+.links li,
+.social h4 {
+	color: #838994;
+}
